@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Untitled Document</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <script type="application/javascript" src="rover.js"></script>
+    <script type="application/javascript" src="app.js"></script>
+</head>
+<body>
+    <label>Map Size</label>
+    <input type="text" name="mapX" id="mapX" value="" placeholder="x" size="2" maxlength="1" />
+    <input type="text" name="mapY" id="mapY" value="" placeholder="y" size="2" maxlength="1"/>
+    <label>Rover Starting Position</label>
+    <input type="text" name="posX" id="posX" value="" placeholder="x" size="2" maxlength="1"/>
+    <input type="text" name="posY" id="posY" value="" placeholder="y" size="2" maxlength="1"/>
+    <input type="text" name="posD" id="posD" value="" placeholder="d" size="2" maxlength="1"/>
+    <label for="directions">Rover Directions</label>
+    <input type="text" name="directions" id="directions" value="" />
+    <input type="button" value="Go" onclick="go();" />
+    
+    <div id="coords"></div>
+</body>
+</html>
+
